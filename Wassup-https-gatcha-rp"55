@@ -1,0 +1,270 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "[PyxPixel  | Script-Hub]";
+	Text = "The UI has been executed.";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Script-Hub is loading data & assets..";
+    Color = Color3.fromRGB(12, 260, 150);
+})
+
+wait(1.1)
+wait(2.1)
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Script-Hub is currently loading..";
+    Color = Color3.fromRGB(12, 260, 150);
+})
+
+wait(1.4)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[PyxPixel | Script-Hub]: Auto Update System, Activated!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+wait(1.3)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Update Found: SH_V11:Engine.download";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+wait(1.3)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Update Found: sh_test.v12";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Updating..";
+    Color = Color3.fromRGB(0, 230, 255);
+})
+
+wait(2.5)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Starting Script!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("🔥PyxPixel  |  Script-Hub | V11.0 | Made by Fsploit", "Synapse")
+
+local Tab = Window:NewTab("💬 | News")
+local Section = Tab:NewSection("[💬 | News]:")
+
+Section:NewLabel("[Hey There, Welcome!]:")
+Section:NewLabel("Made by Fsploit ")
+Section:NewLabel("Owned by blzxe")
+Section:NewLabel("New Scripts!")
+Section:NewLabel("New Theme: Synapse")
+Section:NewLabel("Script Removed: OldexR's Ultimate Door GUI")
+Section:NewLabel("Loading Intro [V2] to [V3]")
+Section:NewLabel("Loading Intro is now 20% faster.")
+Section:NewLabel("2 Features available in Settings.")
+Section:NewLabel("1+ New Event at Special")
+Section:NewLabel("all hubs work!")
+
+
+local Tab = Window:NewTab("📰 | Scripts")
+local Section = Tab:NewSection("[📰 | Scripts]:")
+
+Section:NewButton("Inf Yield X", "No requirements", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+Section:NewButton("MM2", "No requirements", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+Section:NewButton("Big Head [R15]", "(Required: Use Rthro Head)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/Scripts2022/main/BigHeadV3_Unpatched", true))()
+end)
+
+Section:NewButton("Jailbreak Script", "Sadly, No key :("	, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lu(a")))
+end)
+
+Section:NewButton("PLS Donate | Fake Donate", "Client Sided Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua"))()
+end)
+
+Section:NewButton("Doors Script", "Requirement: Doors Game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+end)
+
+Section:NewButton("Kick-Self", "Kick-Self in server | Created by OldexR", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/rviBsFRW"))()
+end)
+
+Section:NewButton("Fake-Ban", "Fake-Ban (Troll Your Friends) | Created by OldexR", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZACpkBHd"))()
+end)
+
+Section:NewButton("Free-Cam (Shift + P)", "Free-Cam | Shift + P", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yJ51HKy9"))()
+end)
+
+Section:NewButton("Animation Changer R15", "R15 Avatar Required", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/suKnismY"))()
+end)
+
+Section:NewButton("Blox-Fruit {UPDATED}", "Nothing to see here.. :)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+
+Section:NewButton("Bedwars Vape [FREE]", "free :)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Be A Parkour Ninja Script", "keep pressing w to show big hitbox", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/h2qgNihD"))()
+end)
+
+Section:NewButton("Versus Script [R6]", "VISUAL: Players only see you floating.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wC64LrAJ"))()
+end)
+
+Section:NewButton("Anti-Fling", "Ok.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cGAQcGv3"))()
+end)
+
+Section:NewButton("Plamen6789's Doors Entity Spawner", "Credits: plamen6789rocks#3924", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySpawner/main/DoorsSpawnerGUIScript'))()
+end)
+
+Section:NewButton("Prison Life", "nothing to see here :)", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/VHnxgyBQ'))()
+end)
+
+Section:NewButton("VR Script [R6]", "Credits for: bacongaming_09129", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShownApe/VR-Scripts/main/clovr_tool_holding_netless.lua"))() 
+end)
+
+Section:NewButton("Amogus Script", "be sus ;)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/k3HPEtfA"))() 
+end)
+
+Section:NewButton("Saitama Mode [Click 3 Dots] | [R6]", "Hat ID: 6470135113", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1xTDC1SF"))() 
+end)
+
+Section:NewButton("SCP 096 [FE]", "Triggered..", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/i4wkZq6m"))() 
+end)
+
+Section:NewButton("Let Others Control You", "owshi micdrop.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PuVAZnbP"))() 
+end)
+
+Section:NewButton("Hat Universe", "Be a god?!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GKLtx40H"))() 
+end)
+
+Section:NewButton("generic roleplay gaem. script", "ez", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Generic_GUI"))()
+end)
+
+Section:NewButton("grg script 2#", "L", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Boardbot/grg/main/Boardbot's%20GRG%20GUI%20v2.lua"))()
+end)
+
+Section:NewButton("Type Race [Script]", "your a nub typer if u use this", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/WxKJHTAz"))()
+end)
+
+local Section = Tab:NewSection("[New Scripts Section]")
+
+Section:NewButton("Control Yourself (Created by OldexR)", "Cool", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0ZmQvhn9"))()
+end)
+
+Section:NewButton("FE Jetpack [Click 3 Dots]", "Hat ID: 4368717651", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PYXDYT/FE-JET/main/V1'))()
+end)
+
+Section:NewButton("Admin Simulator Script", "Administrator has disabled your computer..", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Pc33Rc5z'))()
+end)
+
+local Tab = Window:NewTab("🎉 | Special [1+]")
+local Section = Tab:NewSection("[🎉 | Special]:")
+Section:NewLabel("{🎉Event🎉}: GL1TCH3D EV3NT!")
+Section:NewLabel("=====J01N TH3 EV3NT=====")
+
+Section:NewButton("TH3 GL1TCH3D EV3NT", "0101010101010101010101010101010101010101010101010101010101010101010", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/irbu710r"))()
+end)
+
+
+local Tab = Window:NewTab("⚙ | Settings")
+local Section = Tab:NewSection("[⚙ | Settings]:")
+Section:NewKeybind("UI Keybind: X", "Click and press key = Change", Enum.KeyCode.X, function()
+	Library:ToggleUI()
+end)
+
+Section:NewLabel("Anti-Cheat Bypass: ON")
+Section:NewLabel("discord.gg/sFXSqXumQD")
+
+Section:NewTextBox("Console Printer", "Print's whatever you type.", function(txt)
+	print(txt)
+end)
+Section:NewColorPicker("Color-Picker", "Pick's a color, (In-console)", Color3.fromRGB(0,0,0), function(color)
+    print(color)
+end)
+
+local Tab = Window:NewTab("🏳 | Languages")
+local Section = Tab:NewSection("[🏳 | Languages]:")
+
+Section:NewButton("S-H | Filipino (Tagalog)", "Change's your language.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BkhfhdHS"))()
+end)
+
+Section:NewButton("S-H | Japanese", "Change's your language.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/e16q7Fa7"))()
+end)
+
+Section:NewButton("S-H | Spanish (Espanol)", "Change's your language.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fXvyXZf5"))()
+end)
+
+Section:NewButton("S-H | Russian", "Change's your language.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1EMb3yat"))()
+end)
+
+Section:NewButton("S-H | Italy (Italian)", "Change's your language.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/14eNHbnc"))()
+end)
+
+local Tab = Window:NewTab("💳 | Credits")
+local Section = Tab:NewSection("[💳 | Credits]")
+Section:NewLabel("Fsploit - Creator/Programmer")
+Section:NewLabel("Blzxe - Owner the script")
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "[PyxPixel | Script-Hub]";
+	Text = "The UI has been loaded.";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+wait(2.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "[PyxPixel | Script-Hub]";
+	Text = "Anti-Cheat Bypass was turned on.";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "[PyxPixel | Script-Hub]";
+	Text = "Join our discord: https://discord.com/invite/yQNGfBsJ";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
